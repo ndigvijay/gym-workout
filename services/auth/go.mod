@@ -5,7 +5,6 @@ go 1.22.2
 require (
 	github.com/gin-gonic/gin v1.10.0
 	github.com/joho/godotenv v1.5.1
-	github.com/ndigvijay/gym-workout/db v0.0.0-20240715052023-cc2a999e2589
 	gorm.io/driver/postgres v1.5.9
 	gorm.io/gorm v1.25.11
 )

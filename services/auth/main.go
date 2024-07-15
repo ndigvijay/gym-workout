@@ -1,17 +1,16 @@
 package main
 
 import (
-	"log"
-
 	"github.com/gin-gonic/gin"
+	"github.com/ndigvijay/gym-workout/services/auth/controllers"
 	"github.com/ndigvijay/gym-workout/services/auth/db"
-	// "github.com/ndigvijay/gym-workout/services/auth/controllers"
+	"log"
 )
 
 func main() {
 	r := gin.Default()
-	err:=db.Init()
-	if err!=nil{
+	err := db.Init()
+	if err != nil {
 		log.Fatal(err)
 	}
 	r.GET("/ping", func(c *gin.Context) {
@@ -19,6 +18,6 @@ func main() {
 			"message": "pong",
 		})
 	})
-	// r.POST("/user/signup",controllers.Signup)
+	r.POST("/user/signup", controllers.Signup)
 	r.Run()
 }
