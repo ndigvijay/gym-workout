@@ -19,5 +19,6 @@ func main() {
 		})
 	})
 	r.POST("/user/signup", controllers.Signup)
+	r.POST("/user/login", controllers.Login)
 	r.Run()
 }
