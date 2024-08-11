@@ -1,11 +1,13 @@
 package main
 
 import (
+	"log"
+
 	"github.com/gin-gonic/gin"
 	"github.com/ndigvijay/gym-workout/services/auth/controllers"
 	"github.com/ndigvijay/gym-workout/services/auth/db"
-	"log"
 )
+
 
 func main() {
 	r := gin.Default()

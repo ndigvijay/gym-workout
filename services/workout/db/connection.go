@@ -1,14 +1,14 @@
 package db
 
 import (
-	"github.com/joho/godotenv"
-	"gorm.io/gorm"
-	//     "fmt"
-	//     "os"
-	//     "log"
-	//     "sync"
-	//     "gorm.io/driver/postgres"
-	"github.com/ndigvijay/gym-workout/db/database"
+    "github.com/joho/godotenv"
+    "gorm.io/gorm"
+    // "fmt"
+    // "os"
+    // "log"
+    // "sync"
+    // "gorm.io/driver/postgres"
+    "github.com/ndigvijay/gym-workout/db/database"
 )
 
 var DB *gorm.DB

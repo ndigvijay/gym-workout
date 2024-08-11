@@ -1,11 +1,9 @@
-module github.com/ndigvijay/gym-workout/services/auth
+module github.com/ndigvijay/gym-workout/services/workout
 
 go 1.22.5
 
 require (
-	github.com/alexedwards/argon2id v1.0.0
 	github.com/gin-gonic/gin v1.10.0
-	github.com/golang-jwt/jwt/v5 v5.2.1
 	github.com/joho/godotenv v1.5.1
 	github.com/ndigvijay/gym-workout/db v0.0.0-20240724221126-69d7db3db52e
 	gorm.io/gorm v1.25.11

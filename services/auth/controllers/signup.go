@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/ndigvijay/gym-workout/services/auth/db"
-	"github.com/ndigvijay/gym-workout/services/auth/models"
+	"github.com/ndigvijay/gym-workout/db/models"
 
 	// "log"
 	"net/http"
